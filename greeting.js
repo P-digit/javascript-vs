@@ -6,10 +6,10 @@ const USER_LS = "currentUser",
 SHOWING_CN = "showing";
 
 function saveName(text) {
-    localStorageStorage.setItem(USER_LS, text);
+    localStorage.setItem(USER_LS,text);
 }
 
-function handleSubmit(event){
+function handleSubmit(event) {
     event.preventDefault();
     const currentValue = input.value;
     paintGreeting(currentValue);
@@ -37,8 +37,6 @@ paintGreeting(currentUser);
 }
 
 }
-
-
 
 
 function init() {
