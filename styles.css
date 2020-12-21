@@ -82,3 +82,13 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.form {
+  margin-bottom: 30px;
+}
+
+.form input {
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+}
