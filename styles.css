@@ -34,9 +34,6 @@ body {
   align-items: center;
 }
 
-.js-toDoList {
-}
-
 .btn {
   cursor: pointer;
 }
@@ -106,4 +103,11 @@ input {
 
 h1 {
   font-size: 60px;
+}
+
+.weather {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 15px;
 }
