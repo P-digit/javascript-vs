@@ -15,10 +15,14 @@ body {
   height: 100vh;
 }
 
-.center__column,
+.center__column {
+  height: 50%;
+  width: 50%;
+}
+
 .list__column {
   width: 50%;
-  height: 50%;
+  height: 45%;
 }
 
 .center__column {
@@ -99,6 +103,7 @@ input {
   outline: 0;
   border-width: 0 0 2px;
   border-color: white;
+  color: white;
 }
 
 h1 {
@@ -110,4 +115,28 @@ h1 {
   top: 0px;
   right: 0px;
   font-size: 15px;
+}
+.quote__column {
+  height: 15%;
+  display: block;
+}
+
+.quote__column-quote span:first-child {
+  font-size: 18px;
+}
+
+.quote__column-author span:first-child {
+  font-size: 14px;
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  font-size: 20px;
+  border: 0;
+  outline: 0;
+  height: 100%;
+}
+button:hover {
+  cursor: pointer;
 }
